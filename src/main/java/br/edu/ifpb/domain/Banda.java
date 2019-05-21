@@ -15,6 +15,12 @@ public class Banda {
         this.integrantes = integrantes;
     }
 
+    public Banda(int id, String localDeOrigem, String nomeFantasia) {
+        this.id = id;
+        this.localDeOrigem = localDeOrigem;
+        this.nomeFantasia = nomeFantasia;
+    }
+
     public int getId() {
         return id;
     }

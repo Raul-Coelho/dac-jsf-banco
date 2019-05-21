@@ -88,6 +88,7 @@ public class IntegranteDao {
             st.setString(1, integrante.getNome());
             st.setDate(2, integrante.getDataDeNascimento());
             st.setString(3, integrante.getCpf().valor());
+            st.setInt(4, integrante.getId());
 
             return (st.executeUpdate() > 0);
 
